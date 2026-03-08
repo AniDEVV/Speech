@@ -1,0 +1,104 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* Background */
+
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* Main container */
+
+.container {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+
+  padding: 40px;
+  border-radius: 20px;
+
+  width: 600px;
+  max-width: 90%;
+
+  text-align: center;
+
+  box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+}
+
+/* Title */
+
+h1 {
+  color: white;
+  margin-bottom: 30px;
+}
+
+/* Select */
+
+select {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 20px;
+
+  width: 200px;
+  font-size: 15px;
+}
+
+/* Buttons */
+
+button {
+  background: #ffffff;
+  color: #333;
+
+  border: none;
+  border-radius: 10px;
+
+  padding: 12px 24px;
+  margin: 10px;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+
+/* Caption box */
+
+.caption-box {
+  margin-top: 25px;
+  padding: 20px;
+
+  background: rgba(255,255,255,0.15);
+  border-radius: 12px;
+
+  color: white;
+  font-size: 18px;
+}
+
+/* History */
+
+.history {
+  margin-top: 20px;
+  color: white;
+}
+
+.history p {
+  background: rgba(255,255,255,0.1);
+  padding: 10px;
+  border-radius: 8px;
+  margin: 5px 0;
+}
